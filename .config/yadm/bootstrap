@@ -1,0 +1,4 @@
+#!/bin/bash
+
+yadm config core.sparseCheckout true
+yadm sparse-checkout set '/*' '!README.md' '!LICENSE.md'
