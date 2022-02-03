@@ -1,0 +1,20 @@
+# This is Git's per-user configuration file.
+[user]
+	name = Arash
+	email = 47273556+arashnrim@users.noreply.github.com
+	signingKey = 4646757E92B3D676
+[gpg]
+	program = /usr/local/bin/gpg
+[pull]
+	rebase = true
+[init]
+	defaultBranch = main
+[commit]
+	gpgSign = true
+[tag]
+	forceSignAnnotated = true
+[filter "lfs"]
+	clean = git-lfs clean -- %f
+	smudge = git-lfs smudge -- %f
+	process = git-lfs filter-process
+	required = true
