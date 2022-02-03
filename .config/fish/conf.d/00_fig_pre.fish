@@ -1,0 +1,1 @@
+/Users/arashnrim/.fig/shell/pre.fish
