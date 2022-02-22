@@ -1,0 +1,57 @@
+{
+	"$schema": "https://joplinapp.org/schema/settings.json",
+	"locale": "en_GB",
+	"api.token": "534f6353acd36a60af02a5ca961acfd5cc2b4b2cfbc498857412473861a2c746f8590b83ae17b92b0e0bbcd333f36ebe8f239a1325c9fce844f6bb13518f9817",
+	"markdown.plugin.softbreaks": false,
+	"markdown.plugin.typographer": false,
+	"spellChecker.language": "en-GB",
+	"ui.layout": {
+		"key": "root",
+		"children": [
+			{
+				"key": "sideBar",
+				"width": 250,
+				"visible": true
+			},
+			{
+				"key": "noteList",
+				"width": 224,
+				"visible": true
+			},
+			{
+				"key": "editor",
+				"visible": true
+			},
+			{
+				"key": "plugin-view-io.treymo.LinkGraph-note-graph-view",
+				"context": {
+					"pluginId": "io.treymo.LinkGraph"
+				},
+				"visible": false
+			}
+		],
+		"visible": true
+	},
+	"noteVisiblePanes": [
+		"editor",
+		"viewer"
+	],
+	"timeFormat": "h:mm A",
+	"theme": 22,
+	"themeAutoDetect": true,
+	"preferredDarkTheme": 22,
+	"trackLocation": false,
+	"showTrayIcon": false,
+	"style.editor.fontSize": 16,
+	"style.editor.monospaceFontFamily": "JetBrains Mono",
+	"autoUpdateEnabled": false,
+	"revisionService.enabled": false,
+	"sync.target": 2,
+	"sync.2.path": "/Users/arashnrim/Documents/Joplin",
+	"style.editor.fontFamily": "JetBrains Mono",
+	"editor.codeView": true,
+	"showNoteCounts": true,
+	"style.editor.contentMaxWidth": 0,
+	"markdown.plugin.sub": true,
+	"markdown.plugin.sup": true
+}

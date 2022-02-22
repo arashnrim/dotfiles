@@ -1,1 +1,0 @@
-/Users/arashnrim/.fig/shell/post.fish
