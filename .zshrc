@@ -1,27 +1,3 @@
-
-# ==================
-# Fig
-# https://fig.io
-# ==================
-if [[ `uname` == "Darwin" ]]; then
-    [ -s ~/.fig/shell/pre.sh ] && source ~/.fig/shell/pre.sh
-fi
-
-# ==================
-# Theming
-# https://github.com/sindresorhus/pure
-# ==================
-autoload -U promptinit; promptinit
-prompt pure
-
-zstyle :prompt:pure:prompt:error color 160
-zstyle :prompt:pure:prompt:success color 255
-zstyle ':prompt:pure:git:*' color 255
-zstyle :prompt:pure:git:dirty color 226
-zstyle :prompt:pure:git:branch:cached color 226
-zstyle :prompt:pure:git:arrow color 226
-zstyle :prompt:pure:path color 242
-
 # ==================
 # Aliases
 # ==================
@@ -42,11 +18,6 @@ alias gs="git status"
 alias gst="git stash"
 
 # ==================
-# PATH settings
-# ==================
-export PATH="/usr/local/opt/node@16/bin:$PATH"
-
-# ==================
 # pyenv
 # https://github.com/pyenv/pyenv
 # ==================
@@ -59,15 +30,14 @@ eval "$(pyenv virtualenv-init -)"
 export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
 
 # ==================
-# nvm
+# fnm
+# https://github.com/Schniz/fnm
 # ==================
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
-
-# ==================
-# Fig
-# https://fig.io
-# ==================
-if [[ `uname` == "Darwin" ]]; then
-    [ -s ~/.fig/fig.sh ] && source ~/.fig/fig.sh
-fi
+export PATH="/Users/arashnrim/Library/Caches/fnm_multishells/72307_1645504596794/bin":$PATH
+export FNM_MULTISHELL_PATH="/Users/arashnrim/Library/Caches/fnm_multishells/72307_1645504596794"
+export FNM_VERSION_FILE_STRATEGY="local"
+export FNM_DIR="/Users/arashnrim/Library/Application Support/fnm"
+export FNM_LOGLEVEL="info"
+export FNM_NODE_DIST_MIRROR="https://nodejs.org/dist"
+export FNM_ARCH="x64"
+rehash
