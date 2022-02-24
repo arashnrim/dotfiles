@@ -50,11 +50,13 @@ export PATH="/usr/local/opt/tcl-tk/bin:$PATH"
 # fnm
 # https://github.com/Schniz/fnm
 # ==================
-export PATH="/Users/arashnrim/Library/Caches/fnm_multishells/72307_1645504596794/bin":$PATH
-export FNM_MULTISHELL_PATH="/Users/arashnrim/Library/Caches/fnm_multishells/72307_1645504596794"
-export FNM_VERSION_FILE_STRATEGY="local"
-export FNM_DIR="/Users/arashnrim/Library/Application Support/fnm"
-export FNM_LOGLEVEL="info"
-export FNM_NODE_DIST_MIRROR="https://nodejs.org/dist"
-export FNM_ARCH="x64"
-rehash
+if [[ `uname` == "Darwin" ]]; then
+  export PATH="/Users/arashnrim/Library/Caches/fnm_multishells/72307_1645504596794/bin":$PATH
+  export FNM_MULTISHELL_PATH="/Users/arashnrim/Library/Caches/fnm_multishells/72307_1645504596794"
+  export FNM_VERSION_FILE_STRATEGY="local"
+  export FNM_DIR="/Users/arashnrim/Library/Application Support/fnm"
+  export FNM_LOGLEVEL="info"
+  export FNM_NODE_DIST_MIRROR="https://nodejs.org/dist"
+  export FNM_ARCH="x64"
+  rehash
+fi
