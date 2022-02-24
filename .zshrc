@@ -28,9 +28,11 @@ alias gs="git status"
 alias gst="git stash"
 alias ya="yadm add"
 alias yc="yadm commit -S -m "
+alias yd="yadm diff"
 alias ypl="yadm pull"
 alias yps="yadm push"
 alias ys="yadm status"
+alias yst="yadm stash"
 
 # ==================
 # pyenv
