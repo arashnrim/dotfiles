@@ -19,21 +19,26 @@
 				"visible": true
 			},
 			{
-				"key": "editor",
+				"key": "tempContainer-DJ5d7bgmLqEpOiHnKLmbSA",
+				"children": [
+					{
+						"key": "editor",
+						"visible": true
+					},
+					{
+						"key": "plugin-view-io.treymo.LinkGraph-note-graph-view",
+						"context": {
+							"pluginId": "io.treymo.LinkGraph"
+						},
+						"visible": true
+					}
+				],
 				"visible": true
-			},
-			{
-				"key": "plugin-view-io.treymo.LinkGraph-note-graph-view",
-				"context": {
-					"pluginId": "io.treymo.LinkGraph"
-				},
-				"visible": false
 			}
 		],
 		"visible": true
 	},
 	"noteVisiblePanes": [
-		"editor",
 		"viewer"
 	],
 	"timeFormat": "h:mm A",
@@ -53,5 +58,13 @@
 	"showNoteCounts": true,
 	"style.editor.contentMaxWidth": 0,
 	"markdown.plugin.sub": true,
-	"markdown.plugin.sup": true
+	"markdown.plugin.sup": true,
+	"notes.sortOrder.field": "user_created_time",
+	"notes.sortOrder.reverse": true,
+	"notes.perFieldReverse": {
+		"user_updated_time": true,
+		"user_created_time": true,
+		"title": false,
+		"order": false
+	}
 }
