@@ -30,7 +30,7 @@
 						"context": {
 							"pluginId": "io.treymo.LinkGraph"
 						},
-						"visible": true
+						"visible": false
 					}
 				],
 				"visible": true
@@ -39,6 +39,7 @@
 		"visible": true
 	},
 	"noteVisiblePanes": [
+		"editor",
 		"viewer"
 	],
 	"timeFormat": "h:mm A",
