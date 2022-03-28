@@ -183,10 +183,10 @@ create-astro@^0.7.0:
     prompts "^2.4.1"
     yargs-parser "^21.0.0"
 
-create-next-app@^12.0.3:
-  version "12.0.3"
-  resolved "https://registry.yarnpkg.com/create-next-app/-/create-next-app-12.0.3.tgz#39acb3f919a704603332e4a587f23ef7d842f538"
-  integrity sha512-Kb6MS+kUtbuzxG2EAJthRSF7hhx5yUbhUupd96Tm3Ivqy8jtPobU4zYbBPDRNWw3BACwQODw9xQzw+5eEzPLfQ==
+create-next-app@^12.1.0:
+  version "12.1.0"
+  resolved "https://registry.yarnpkg.com/create-next-app/-/create-next-app-12.1.0.tgz#e9563a44e87a21bc3a813174d7d6b6e056769271"
+  integrity sha512-4n28aR1K/Gheui4RRsMkWyGjTXSCZF++n9xAClumImIyDKwmV+rzGHzoJEkndIWDqBviFJ7SttlB4rYWDa4vpg==
 
 cross-spawn@^7.0.2:
   version "7.0.3"
