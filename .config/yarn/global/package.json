@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "@commitlint/config-conventional": "^13.1.0",
-    "create-astro": "^0.7.0",
-    "create-next-app": "^12.1.0",
-    "eslint": "^8.6.0"
-  }
-}
