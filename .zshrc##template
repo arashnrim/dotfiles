@@ -1,0 +1,43 @@
+# ==================
+# Powerlevel10k
+# https://github.com/romkatv/powerlevel10k
+# ==================
+# <insert Powerlevel10k-required code here>
+
+# ==================
+# Aliases
+# ==================
+alias ga="git add"
+alias gb="git branch"
+alias gc="git commit -S -m "
+alias gcl="git clone"
+alias gco="git checkout"
+alias gcp="git cherry-pick"
+alias gd="git diff"
+alias gf="git fetch"
+alias gl="git log"
+alias gm="git merge"
+alias gpl="git pull"
+alias gps="git push"
+alias grs="git reset"
+alias gs="git status"
+alias gst="git stash"
+alias ya="yadm add"
+alias yc="yadm commit -S -m "
+alias yd="yadm diff"
+alias ypl="yadm pull"
+alias yps="yadm push"
+alias ys="yadm status"
+alias yst="yadm stash"
+
+# ==================
+# pyenv
+# https://github.com/pyenv/pyenv
+# ==================
+# <insert pyenv-required code here>
+
+# ==================
+# fnm
+# https://github.com/Schniz/fnm
+# ==================
+# <insert fnm-required code here>
