@@ -3,8 +3,6 @@
 	name = Arash
 	email = 47273556+arashnrim@users.noreply.github.com
 	signingKey = 4646757E92B3D676
-[gpg]
-	program = /usr/local/bin/gpg
 [pull]
 	rebase = true
 [init]
