@@ -2,7 +2,7 @@
 [user]
 	name = Arash
 	email = 47273556+arashnrim@users.noreply.github.com
-	signingKey = 4646757E92B3D676
+	signingKey = 42C6BE8F6F906B5F
 [pull]
 	rebase = true
 [init]
@@ -17,7 +17,7 @@
 	process = git-lfs filter-process
 	required = true
 [credential]
-	helper = /usr/local/share/gcm-core/git-credential-manager-core
 	credentialStore = gpg
+	helper = /usr/local/share/gcm-core/git-credential-manager-core
 [credential "https://dev.azure.com"]
 	useHttpPath = true
