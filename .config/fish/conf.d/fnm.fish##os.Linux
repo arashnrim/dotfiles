@@ -1,0 +1,2 @@
+set PATH /home/arashnrim/.fnm $PATH
+fnm env | source
