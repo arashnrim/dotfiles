@@ -7,7 +7,7 @@ This repository might hold many dotfiles, but a few that might be of interest is
 | File                                                                 | Description                                                                                              |
 | :------------------------------------------------------------------- | :------------------------------------------------------------------------------------------------------- |
 | [fish](https://github.com/arashnrim/dotfiles/tree/main/.config/fish) | The configuration files for the `fish` shell.                                                            |
-| [.zshrc](https://github.com/arashnrim/dotfiles/blob/main/.zshrc)     | The configuration files for the `zsh` shell; usually used as an alternative to the primary `fish` shell. |
+| [.zshrc](https://github.com/arashnrim/dotfiles/blob/main/.zshrc%23%23default)     | The configuration files for the `zsh` shell; usually used as an alternative to the primary `fish` shell. |
 
 ## Motivations
 
