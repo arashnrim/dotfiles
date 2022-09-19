@@ -2,7 +2,7 @@
 [user]
 	name = Arash
 	email = 47273556+arashnrim@users.noreply.github.com
-	signingKey = 42C6BE8F6F906B5F
+	signingKey = 562838F6FC545C6364657870EC00609E8C0601B4
 [pull]
 	rebase = true
 [init]
