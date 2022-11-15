@@ -2,3 +2,12 @@ if status is-interactive
     # Commands to run in interactive sessions can go here
     set -gx GPG_TTY (tty)
 end
+
+# pnpm
+set -gx PNPM_HOME "/home/arashnrim/.local/share/pnpm"
+set -gx PATH "$PNPM_HOME" $PATH
+# pnpm end
+
+# pyenv
+pyenv init - | source
+# pyenv end

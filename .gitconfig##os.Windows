@@ -1,0 +1,15 @@
+[user]
+    name = Arash
+    email = 47273556+arashnrim@users.noreply.github.com
+    signingKey = 562838F6FC545C6364657870EC00609E8C0601B4
+[commit]
+    gpgSign = true
+[tag]
+    forceSignAnnotated = true
+[core]
+    editor = \"C:\\Users\\Arash\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
+[filter "lfs"]
+    required = true
+    clean = git-lfs clean -- %f
+    smudge = git-lfs smudge -- %f
+    process = git-lfs filter-process
