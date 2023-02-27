@@ -1,0 +1,8 @@
+[credential]
+	helper = /mnt/c/Users/Arash/AppData/Local/Programs/Git\\ Credential\\ Manager/git-credential-manager.exe
+[user]
+	email = 47273556+arashnrim@users.noreply.github.com
+	name = Arash
+	signingkey = E86AE76D2268EEEA
+[commit]
+	gpgsign = true
