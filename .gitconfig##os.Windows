@@ -1,0 +1,16 @@
+[user]
+    name = Arash
+    email = 47273556+arashnrim@users.noreply.github.com
+    signingkey = E86AE76D2268EEEA
+[credential]
+    helper = manager
+[pull]
+    rebase = true
+[commit]
+    gpgsign = true
+[core]
+    autocrlf = true
+[init]
+    defaultBranch = main
+[core]
+    editor = \"C:\\Users\\Arash\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
