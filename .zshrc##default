@@ -169,3 +169,8 @@ export PATH="$PNPM_HOME:$PATH"
 # WebP
 #
 export PATH="/usr/local/bin/webp/bin:$PATH"
+
+#
+# Inshellisense
+#
+[ -f ~/.inshellisense/key-bindings.zsh ] && source ~/.inshellisense/key-bindings.zsh
