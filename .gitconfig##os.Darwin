@@ -1,0 +1,8 @@
+[credential]
+	helper = manager
+[user]
+	name = Arash
+	email = 47273556+arashnrim@users.noreply.github.com
+	signingkey = 96929ED5A23C4480ADD5431F17972CD37E1BE757
+[commit]
+	gpgsign = true
