@@ -1,0 +1,16 @@
+[user]
+	email = 47273556+arashnrim@users.noreply.github.com
+	name = Arash
+	signingkey = E86AE76D2268EEEA
+[commit]
+	gpgsign = true
+[credential]
+	helper = /usr/local/bin/git-credential-manager
+[credential "https://dev.azure.com"]
+	useHttpPath = true
+[pull]
+	rebase = true
+[core]
+	autocrlf = true
+[init]
+	defaultBranch = main
