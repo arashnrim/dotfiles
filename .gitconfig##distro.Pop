@@ -1,9 +1,9 @@
 [user]
 	email = 47273556+arashnrim@users.noreply.github.com
 	name = Arash
-	signingkey = E86AE76D2268EEEA
+	signingKey = E86AE76D2268EEEA
 [commit]
-	gpgsign = true
+	gpgSign = true
 [credential]
 	helper = /usr/local/bin/git-credential-manager
 	credentialStore = gpg
@@ -12,6 +12,14 @@
 [pull]
 	rebase = true
 [core]
-	autocrlf = true
+	autocrlf = false
 [init]
 	defaultBranch = main
+[gpg]
+	format = openpgp
+	program = gpg
+[tag]
+	forceSignAnnotated = false
+[gpg "ssh"]
+	program = ssh-keygen
+	allowedSignersFile = 
