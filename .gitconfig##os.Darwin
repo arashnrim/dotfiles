@@ -1,4 +1,5 @@
 [credential]
+	helper = manager
 	helper = /usr/local/share/gcm-core/git-credential-manager
 [user]
 	name = Arash
