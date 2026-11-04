@@ -129,6 +129,23 @@ unset key
 # }}} End configuration added by Zim install
 
 # ------------------------------
+# Aliases
+# ------------------------------
+
+function dc() (
+  cd "~/Documents/Delta" || return
+
+  if [[ -z "$(git status --porcelain content/)" ]]; then
+    echo "No changes to commit in content/"
+    return
+  fi
+
+  git add content && git commit -S -m "feat: update content" && git push
+)
+alias dp="(cd ~/Documents/Delta && npx quartz build --serve)"
+alias ds="(cd ~/Documents/Delta && git status)"
+
+# ------------------------------
 # Installed tools
 # ------------------------------
 
@@ -154,3 +171,10 @@ export PATH="$PNPM_HOME:$PATH"
 # Docker
 #
 fpath=(/Users/arashnrim/.docker/completions $fpath)
+
+#
+# pyenv
+#
+export PYENV_ROOT="$HOME/.pyenv"
+[[ -d $PYENV_ROOT/bin ]] && export PATH="$PYENV_ROOT/bin:$PATH"
+eval "$(pyenv init - zsh)"
