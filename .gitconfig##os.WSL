@@ -1,0 +1,16 @@
+[user]
+    name = Arash
+    email = 47273556+arashnrim@users.noreply.github.com
+    signingkey = 4D424780C1BC42B6A69AD574E86AE76D2268EEEA
+[credential]
+    helper = /mnt/c/Program\\ Files/Git/ucrt64/bin/git-credential-manager.exe
+[gpg]
+    program = /mnt/c/Program Files/GnuPG/bin/gpg.exe
+[pull]
+    rebase = true
+[commit]
+    gpgsign = true
+[init]
+    defaultBranch = main
+[core]
+    autocrlf = input
