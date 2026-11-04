@@ -4,13 +4,12 @@
     signingkey = 4D424780C1BC42B6A69AD574E86AE76D2268EEEA
 [credential]
     helper = manager
-[pull]
-    rebase = true
 [commit]
     gpgsign = true
+[pull]
+    rebase = true
 [core]
     autocrlf = true
+    editor = \"C:\\Users\\micro\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait
 [init]
     defaultBranch = main
-[core]
-    editor = \"C:\\Users\\micro\\AppData\\Local\\Programs\\Microsoft VS Code\\bin\\code\" --wait

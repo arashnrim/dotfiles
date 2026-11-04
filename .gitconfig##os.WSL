@@ -6,11 +6,11 @@
     helper = /mnt/c/Program\\ Files/Git/ucrt64/bin/git-credential-manager.exe
 [gpg]
     program = /mnt/c/Program Files/GnuPG/bin/gpg.exe
-[pull]
-    rebase = true
 [commit]
     gpgsign = true
-[init]
-    defaultBranch = main
+[pull]
+    rebase = true
 [core]
     autocrlf = input
+[init]
+    defaultBranch = main
